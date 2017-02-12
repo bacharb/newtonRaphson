@@ -1,5 +1,6 @@
 #include <mainNR.hpp>
 // Une premiere touche 1 
+// Une seconde touch 2
 
 bool isClose (Real x,Real y, Real epsilon=0.0001) {
 	assert (epsilon > 0);
