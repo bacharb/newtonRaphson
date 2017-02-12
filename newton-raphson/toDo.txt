@@ -1,0 +1,6 @@
+1- use references whenever possible
+2- use auto as much as possible
+3- create a name sapce
+4- test cases
+5- const members, mutale and non mutable
+
