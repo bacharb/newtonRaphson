@@ -9,7 +9,7 @@
 
 template <typename DF = Derivative, typename VS, typename CE>
 auto newtonRaphson (Function f, Real x0, 
-		DF df, VS isVerySmall, CE isCloseEnough, max =100) {
+		DF df, VS isVerySmall, CE isCloseEnough, Natural max =100) {
 
 	for (auto i=0; i < max; i++) {
 		auto y0 = f(x0);
