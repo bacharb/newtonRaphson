@@ -51,7 +51,7 @@ class expand:
 )
 		return inputString
 
-mydict = {
+serviceInterfaces = {
         "expand":expand,
         "setVal":setVal,
         "listKeys":listKeys,
@@ -59,4 +59,4 @@ mydict = {
         "reset":reset
         }
 
-app = web.application(urls, mydict)
+app = web.application(urls, serviceInterfaces)
