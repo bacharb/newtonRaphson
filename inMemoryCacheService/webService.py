@@ -14,8 +14,6 @@ urls = (
 	'/expand?(.*)', 'expand'  # expand all place holder keys from the store contained in a string.
 )
 
-app = web.application(urls, globals())
-
 class setVal:
 	def POST(self, key):
 		data = web.input()
@@ -23,11 +21,9 @@ class setVal:
 			webStore._cache[key] = data[key]
 		return dict(data)
 
-
 class listKeys:
 	def GET(self):
 		return webStore.items()
-
 
 class reset:
 	def GET(self):
@@ -54,3 +50,13 @@ class expand:
 			inputString = inputString.replace(placeholder, fields.get(key, placeholder)
 )
 		return inputString
+
+mydict = {
+        "expand":expand,
+        "setVal":setVal,
+        "listKeys":listKeys,
+        "delKey":delKey,
+        "reset":reset
+        }
+
+app = web.application(urls, mydict)
