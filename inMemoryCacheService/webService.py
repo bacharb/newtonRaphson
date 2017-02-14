@@ -6,7 +6,6 @@ import web
 
 webStore = myCache.inMemoryCache()
 
-
 urls = (
     '/list', 'listKeys',  # Dump the whole store
     '/reset', 'reset',  # Reset: resart from scratch ==> cache={} and store ={}.
@@ -14,7 +13,6 @@ urls = (
     '/del?(.*)', 'delKey',  # delete a key from store,
     '/expand?(.*)', 'expand'  # expand all place holder keys from the store contained in a string.
 )
-
 
 class setVal:
     def POST(self, key):
