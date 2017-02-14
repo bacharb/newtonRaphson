@@ -28,6 +28,8 @@ class inMemoryCache(object):
         keys = set(self._cache.keys())
         return keys
 
+    def value(self,key): return self._cache[key]
+
     def items(self):
         return dict(self._cache.items())
 
