@@ -26,7 +26,7 @@
   		Also, the, more general, problem of finding the set of roots of an arbitrary function is well known inn the literature.  
    
   		The problem is to find \( x : f(x) =0\), where   \( f \in  \mathcal{D}\). In this setting \( \mathcal{D}\)  is the class of differentiable functions or smooth functions.
-  			\begin{align} \label{eq:functional}
+  			\begin{align} \label{eq:functionalPsi}
   				 \Psi \colon  \mathcal{D}   &\to \mathbb{R} \nonumber\\
   			 	f &\mapsto \Psi(f),
   			\end{align}
@@ -50,7 +50,7 @@
   		It takes 3 parameters, \( (f,x_0,n) \), where \(f\) is the function for which root extraction is sought, 
   		\(x_0\) is an initial guess, and \(n\) is the maximum number of iterations.  The method can be seen as a mathematical function of the form
   
-  		\begin{align} \label{eq:functional}
+  		\begin{align} \label{eq:functionalPhi}
    			\Phi \colon  \mathcal{D} \times \mathbb{R} \times \mathbb{N}  &\to \mathbb{R} \nonumber\\
    			(f,x_0,n) &\mapsto \Phi(f,x_0,n),
   		\end{align}
@@ -84,7 +84,7 @@
   	The function \(\varphi\) is the core function of the algorithm.  This function embody the idea behind the method. 
   	It is where the derivation is taken. This is where the stability condition is needed.  Its mathematical definition is given by:
   
-  \begin{align} \label{eq:functional}
+  \begin{align} \label{eq:functionalphi}
    \varphi \colon  \mathcal{D} \times \mathbb{R} \times  &\to \mathbb{R} \nonumber\\
    (f,x_0) &\mapsto x_1 = \varphi(f,x_0).
   \end{align}
@@ -149,8 +149,8 @@
   
 	\subsection {Implementation}
 		
-  		The following code transcript \ref{newtonRaphsonCode} is an implementation of the algorithm  functional defined by [\ref{eq:functional}] , in \textit {C++} language.  
-  		The added parameters textit {df, isVerySmall, isCloseEnough} are necessary artifacts to allow for different
+  		The following code transcript \ref{newtonRaphsonCode} is an implementation of the algorithm  functional defined by [\ref{Phifunctional}] , in \textit {C++} language.  
+  		The added parameters \textit {df, isVerySmall, isCloseEnough} are necessary artifacts to allow for different
   		numerical methods, schemes, to implement the derivation concept, the other two are also necessary in order to support different ways to implement relative difference measures.
   		For instance, there are many valid ways to numerically derive a function at a point, the two point methods are among the most known in the literature.
   		The other parameters are very close to each and are used in order to
@@ -170,7 +170,7 @@
       escapeinside={(*}{*)}
   }
   \begin{lstlisting} [xleftmargin=5mm]
-  \label{lst:a_label}
+  \label{newtonRaphsonCode}
   #pragma once
   #include "types.hpp"
   

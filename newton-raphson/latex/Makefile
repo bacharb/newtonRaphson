@@ -22,6 +22,13 @@ dvi:
 	latex ${filename}
 	latex ${filename}
 
+all:
+	latex ${filename}
+	bibtex ${filename}||true
+	latex ${filename}
+	latex ${filename}
+
+
 read:
 	evince ${filename}.pdf &
 
