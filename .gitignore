@@ -49,5 +49,32 @@ Thumbs.db
 main
 *.old
 runAllTests
-src
+#src
+*Makefile.in
+AUTHORS
+	COPYING
+	ChangeLog
+	INSTALL
+	Makefile.in
+	NEWS
+	README
+	aclocal.m4
+	autom4te.cache/
+	config.status
+	configure
+	depcomp
+	install-sh
+	*.bbl
+	*.blg
+	*.dvi
+	*.pdf
+	missing
+	src/.deps/
+	src/Makefile
+	src/Makefile.in
+	src/foobar
+	tests/.deps/
+	tests/Makefile
+	tests/Makefile.in
+	tests/mainRunner
 
