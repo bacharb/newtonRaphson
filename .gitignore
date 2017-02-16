@@ -51,6 +51,7 @@ main
 runAllTests
 #src
 *Makefile.in
+newton-raphson/Makefile
 AUTHORS
 	COPYING
 	ChangeLog
