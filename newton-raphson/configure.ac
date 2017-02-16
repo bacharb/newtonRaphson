@@ -3,4 +3,4 @@ AM_INIT_AUTOMAKE
 
 AC_PROG_CXX
 
-AC_OUTPUT(Makefile tests/Makefile)
+AC_OUTPUT(Makefile src/Makefile tests/Makefile)
