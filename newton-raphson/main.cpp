@@ -1,4 +1,5 @@
-#include <mainNR.hpp>
+#include <iostream>
+#include "mainNR.hpp"
 
 bool isClose (Real x,Real y, Real epsilon=0.0001) {
 	assert (epsilon > 0);
