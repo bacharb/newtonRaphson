@@ -6,7 +6,6 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 project(hello)
 
 include_directories(include ../include/NewtonRaphson)
-set (CXX_INCLUDES include)
 
 add_subdirectory(src)
 
