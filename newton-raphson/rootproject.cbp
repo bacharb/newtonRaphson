@@ -37,6 +37,52 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="main">
+				<Option output="/Users/toto/sandbox/newton-raphson/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/toto/sandbox/newton-raphson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/toto/sandbox/newton-raphson/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/toto/sandbox/newton-raphson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/toto/sandbox/newton-raphson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="foobars">
 				<Option output="/Users/toto/sandbox/newton-raphson/lib/libfoobars.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/toto/sandbox/newton-raphson/src"/>
@@ -44,6 +90,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/src/../include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
@@ -67,6 +114,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/src/../include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
@@ -90,6 +138,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/include"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/../include/NewtonRaphson"/>
 					<Add directory="/usr/local/include"/>
@@ -114,6 +163,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/include"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/../include/NewtonRaphson"/>
 					<Add directory="/usr/local/include"/>
@@ -138,6 +188,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/include"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/../include/NewtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/src/../include"/>
@@ -164,6 +215,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/toto/sandbox/newton-raphson/include/newtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/include"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/../include/NewtonRaphson"/>
 					<Add directory="/Users/toto/sandbox/newton-raphson/tests/src/../include"/>
@@ -184,6 +236,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/toto/sandbox/newton-raphson/main.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/Users/toto/sandbox/newton-raphson/src/foobar1.cpp">
 			<Option target="foobars"/>
 		</Unit>
