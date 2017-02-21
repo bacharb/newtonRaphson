@@ -1,6 +1,6 @@
-#include <incl.hpp>
-#include <testNewtonRaphson.hpp>
-#include <topologyStrategy.hpp>
+#include "incl.hpp"
+#include "testNewtonRaphson.hpp"
+#include "topologyStrategy.hpp"
 
 void TestNewtonRaphson::test_racineDe2(void) {
 	// the classical root extraction of 2.

@@ -15,8 +15,8 @@
 #include <cppunit/XmlOutputter.h>
 #include <netinet/in.h>
 
-#include <derivative.hpp>
-#include <newton-raphson.hpp>
+#include "derivative.hpp"
+#include "newton-raphson.hpp"
 
 using namespace CppUnit;
 using namespace std;
