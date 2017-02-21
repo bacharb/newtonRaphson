@@ -9,6 +9,7 @@ void TestDerivative::test_general(void){
    
    Real x0 {TestDerivative::x0};
    assert(fabs(cos (x0) - df(f1,x0)) < TestDerivative::h);
+   assert(fabs(cos(x0) - df(f1, x0)) < TestDerivative::h);
    assert(fabs(cos (x0) - df(f2,x0)) < TestDerivative::h);
    assert(fabs(cos (x0) - df(f3,x0)) < TestDerivative::h);
    assert(fabs(exp (x0) - df(exp,x0)) < TestDerivative::h);

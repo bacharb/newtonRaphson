@@ -10,7 +10,8 @@ void TestNewtonRaphson::test_racineDe2(void) {
 	MyVerySmall     vs {0.001};
 	Real            x0 {1.5};
 
-	TwoPointDerivative df; 
+
+	TwoPointDerivative df;
 
 	auto result = newtonRaphson(f, x0, df, vs, ce);
 	assert (ce(sqrt(2), result));		
