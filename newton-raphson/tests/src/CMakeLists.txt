@@ -9,6 +9,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH ../lib)
 
 include_directories(../include  ../../include/newtonRaphson)
-#set (CXX_INCLUDES ${CXX_INCLUDES} ../include )
+#TODO :  find a way to abstract away the . and .. 
+
 
 add_library (toto testDerivative.cpp testNewtonRaphson.cpp testDerivative.cpp testNewtonRaphson.cpp)
