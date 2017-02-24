@@ -1,0 +1,18 @@
+team collaboration software (groupware): confluence, 
+issue tracking system: jira, github,
+version control repository: git, svn 
+heavy user of integrated development environments to streamline my work flow: eclipse, clion (jetbrains)
+build automation utility: cmake, make, autotools
+unit testing framework: google test, cppunit, unittest
+integration tests, acceptance tests, smock tests, blackbox/whitebox tests
+Scrum = workflow sprint (timeboxing, stand-up))
+
+Software lyfecycle
+
+systems development life cycle (SDLC)
+
+performance analysis: profilers
+debuggers:???
+
+Very balanced
+
