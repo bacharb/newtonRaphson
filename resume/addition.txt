@@ -3,7 +3,9 @@ issue tracking system: jira, github,
 version control repository: git, svn 
 heavy user of integrated development environments to streamline my work flow: eclipse, clion (jetbrains)
 build automation utility: cmake, make, autotools
+
 unit testing framework: xUnit style c++ google test, cppunit, unittest
+
 integration tests, acceptance tests, smock tests, blackbox/whitebox tests
 Scrum = workflow sprint (timeboxing, stand-up))
 
