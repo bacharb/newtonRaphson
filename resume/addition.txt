@@ -18,7 +18,7 @@ debuggers:???
 
 DevOps 
 Specification by example
-
+Acceptance test–driven development
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 Karolina Kural and Robi Khan  (Director, Analytics)
 Kinaxis RapidResponse® on demand software
