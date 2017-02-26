@@ -16,7 +16,9 @@ systems development life cycle (SDLC)
 performance analysis: profilers
 debuggers:???
 
-Very balanced
+DevOps 
+Specification by example
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 Karolina Kural and Robi Khan  (Director, Analytics)
 Kinaxis RapidResponse® on demand software
