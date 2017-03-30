@@ -5,7 +5,7 @@
 #include <cassert>   
 #include <functional>
 
-#include "newtonRaphson/types.hpp"
+#include "types.hpp"
 
 class Derivative {
 	public:

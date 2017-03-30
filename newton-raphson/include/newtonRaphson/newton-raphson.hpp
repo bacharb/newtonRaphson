@@ -1,5 +1,5 @@
 #pragma once
-#include "newtonRaphson/types.hpp"
+#include "types.hpp"
 
 // DF: is a function object implementing the algorithm of derivation.
 //		 In this way we can accommodate varieties of derivation schema. 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/toto/sandbox/newton-raphson/tmp/project/main.cpp
+foobar1.hpp
+/Users/toto/sandbox/newton-raphson/tmp/project/foobar1.hpp
+foobar2.hpp
+/Users/toto/sandbox/newton-raphson/tmp/project/foobar2.hpp
+
+include/foobar1.hpp
+iostream
+-
+
+include/foobar2.hpp
+iostream
+-
+

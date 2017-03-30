@@ -2,7 +2,7 @@
 
 #include <cassert>   
 #include <math.h>
-#include "newtonRaphson/types.hpp"
+#include "types.hpp"
 
 class CloseEnough {
   public:
